@@ -17,8 +17,12 @@
 		BF10F018171256B900FC1323 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF10F017171256B900FC1323 /* Default@2x.png */; };
 		BF10F01A171256B900FC1323 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF10F019171256B900FC1323 /* Default-568h@2x.png */; };
 		BF10F01D171256B900FC1323 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF10F01B171256B900FC1323 /* MainStoryboard_iPhone.storyboard */; };
-		BF10F020171256BA00FC1323 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF10F01E171256BA00FC1323 /* MainStoryboard_iPad.storyboard */; };
 		BF10F023171256BA00FC1323 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF10F022171256BA00FC1323 /* ViewController.m */; };
+		BF10F02A17125E5100FC1323 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF10F02917125E5100FC1323 /* AVFoundation.framework */; };
+		BF10F0301712690900FC1323 /* 10000Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF10F02C1712690900FC1323 /* 10000Hz.mp3 */; };
+		BF10F0311712690900FC1323 /* 11200Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF10F02D1712690900FC1323 /* 11200Hz.mp3 */; };
+		BF10F0321712690900FC1323 /* 16000Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF10F02E1712690900FC1323 /* 16000Hz.mp3 */; };
+		BF10F0331712690900FC1323 /* 8000Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF10F02F1712690900FC1323 /* 8000Hz.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +40,13 @@
 		BF10F017171256B900FC1323 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BF10F019171256B900FC1323 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BF10F01C171256B900FC1323 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		BF10F01F171256BA00FC1323 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		BF10F021171256BA00FC1323 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF10F022171256BA00FC1323 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF10F02917125E5100FC1323 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BF10F02C1712690900FC1323 /* 10000Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10000Hz.mp3; sourceTree = "<group>"; };
+		BF10F02D1712690900FC1323 /* 11200Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11200Hz.mp3; sourceTree = "<group>"; };
+		BF10F02E1712690900FC1323 /* 16000Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 16000Hz.mp3; sourceTree = "<group>"; };
+		BF10F02F1712690900FC1323 /* 8000Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8000Hz.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF10F02A17125E5100FC1323 /* AVFoundation.framework in Frameworks */,
 				BF10F004171256B900FC1323 /* UIKit.framework in Frameworks */,
 				BF10F006171256B900FC1323 /* Foundation.framework in Frameworks */,
 				BF10F008171256B900FC1323 /* CoreGraphics.framework in Frameworks */,
@@ -59,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				BF10F009171256B900FC1323 /* VolumeCalibration */,
+				BF10F02B1712690900FC1323 /* Sounds */,
 				BF10F002171256B900FC1323 /* Frameworks */,
 				BF10F001171256B900FC1323 /* Products */,
 			);
@@ -75,6 +85,7 @@
 		BF10F002171256B900FC1323 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF10F02917125E5100FC1323 /* AVFoundation.framework */,
 				BF10F003171256B900FC1323 /* UIKit.framework */,
 				BF10F005171256B900FC1323 /* Foundation.framework */,
 				BF10F007171256B900FC1323 /* CoreGraphics.framework */,
@@ -88,7 +99,6 @@
 				BF10F012171256B900FC1323 /* AppDelegate.h */,
 				BF10F013171256B900FC1323 /* AppDelegate.m */,
 				BF10F01B171256B900FC1323 /* MainStoryboard_iPhone.storyboard */,
-				BF10F01E171256BA00FC1323 /* MainStoryboard_iPad.storyboard */,
 				BF10F021171256BA00FC1323 /* ViewController.h */,
 				BF10F022171256BA00FC1323 /* ViewController.m */,
 				BF10F00A171256B900FC1323 /* Supporting Files */,
@@ -108,6 +118,18 @@
 				BF10F019171256B900FC1323 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF10F02B1712690900FC1323 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BF10F02C1712690900FC1323 /* 10000Hz.mp3 */,
+				BF10F02D1712690900FC1323 /* 11200Hz.mp3 */,
+				BF10F02E1712690900FC1323 /* 16000Hz.mp3 */,
+				BF10F02F1712690900FC1323 /* 8000Hz.mp3 */,
+			);
+			name = Sounds;
+			path = VolumeCalibration/Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +188,10 @@
 				BF10F018171256B900FC1323 /* Default@2x.png in Resources */,
 				BF10F01A171256B900FC1323 /* Default-568h@2x.png in Resources */,
 				BF10F01D171256B900FC1323 /* MainStoryboard_iPhone.storyboard in Resources */,
-				BF10F020171256BA00FC1323 /* MainStoryboard_iPad.storyboard in Resources */,
+				BF10F0301712690900FC1323 /* 10000Hz.mp3 in Resources */,
+				BF10F0311712690900FC1323 /* 11200Hz.mp3 in Resources */,
+				BF10F0321712690900FC1323 /* 16000Hz.mp3 in Resources */,
+				BF10F0331712690900FC1323 /* 8000Hz.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,14 +225,6 @@
 				BF10F01C171256B900FC1323 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		BF10F01E171256BA00FC1323 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF10F01F171256BA00FC1323 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,6 +295,7 @@
 				GCC_PREFIX_HEADER = "VolumeCalibration/VolumeCalibration-Prefix.pch";
 				INFOPLIST_FILE = "VolumeCalibration/VolumeCalibration-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -289,6 +307,7 @@
 				GCC_PREFIX_HEADER = "VolumeCalibration/VolumeCalibration-Prefix.pch";
 				INFOPLIST_FILE = "VolumeCalibration/VolumeCalibration-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
