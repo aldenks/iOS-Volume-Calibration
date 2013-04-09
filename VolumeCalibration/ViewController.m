@@ -17,6 +17,8 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
+  MPMusicPlayerController *musicPlayer = [MPMusicPlayerController applicationMusicPlayer];
+  musicPlayer.volume = 0.5;
 
   NSURL *soundURL;
   soundURL = [[NSBundle mainBundle] URLForResource:@"8000Hz"  withExtension:@"mp3"];

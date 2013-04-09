@@ -23,6 +23,7 @@
 		BF10F0311712690900FC1323 /* 11200Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF10F02D1712690900FC1323 /* 11200Hz.mp3 */; };
 		BF10F0321712690900FC1323 /* 16000Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF10F02E1712690900FC1323 /* 16000Hz.mp3 */; };
 		BF10F0331712690900FC1323 /* 8000Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF10F02F1712690900FC1323 /* 8000Hz.mp3 */; };
+		BF10F0351713136D00FC1323 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF10F0341713136D00FC1323 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		BF10F02D1712690900FC1323 /* 11200Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11200Hz.mp3; sourceTree = "<group>"; };
 		BF10F02E1712690900FC1323 /* 16000Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 16000Hz.mp3; sourceTree = "<group>"; };
 		BF10F02F1712690900FC1323 /* 8000Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8000Hz.mp3; sourceTree = "<group>"; };
+		BF10F0341713136D00FC1323 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF10F0351713136D00FC1323 /* MediaPlayer.framework in Frameworks */,
 				BF10F02A17125E5100FC1323 /* AVFoundation.framework in Frameworks */,
 				BF10F004171256B900FC1323 /* UIKit.framework in Frameworks */,
 				BF10F006171256B900FC1323 /* Foundation.framework in Frameworks */,
@@ -85,6 +88,7 @@
 		BF10F002171256B900FC1323 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF10F0341713136D00FC1323 /* MediaPlayer.framework */,
 				BF10F02917125E5100FC1323 /* AVFoundation.framework */,
 				BF10F003171256B900FC1323 /* UIKit.framework */,
 				BF10F005171256B900FC1323 /* Foundation.framework */,
